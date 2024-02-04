@@ -51,8 +51,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   leading: CircleAvatar(
                       backgroundImage: NetworkImage(
                           'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400')),
-                  title: Text('Hizar'),
-                  subtitle: Text('Where the Hell You are?'),
+                  title: Text('Imran Khan'),
+                  subtitle: Text('Compromise for your Dream...'),
                   trailing: Text('9:30 PM'),
                 );
               }),
@@ -96,7 +96,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           backgroundImage: NetworkImage(
                               'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400')),
                     ),
-                    title: Text('Hizar'),
+                    title: Text('Imran Khan'),
                     subtitle: Text('35 minutes ago  '),
                   );
                 }
@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
               itemCount: 20,
               itemBuilder: (context, index) {
                 return ListTile(
-                  title: Text('Hizar'),
+                  title: Text('Imran Khan'),
                   subtitle: Text(index / 2 == 0
                       ? 'You missed audio call'
                       : 'You Missed Vedio Call'),
